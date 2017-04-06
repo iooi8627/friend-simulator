@@ -28,6 +28,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="3dp"
+        android:onClick="onClick"
         android:text="힘들 때" />
 
     <Button
@@ -35,6 +36,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="3dp"
+        android:onClick="onClick"
         android:text="혼자 잔류할 때" />
 
     <Button
@@ -42,6 +44,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="3dp"
+        android:onClick="onClick"
         android:text="신날 때" />
 
     <Button
@@ -49,6 +52,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="3dp"
+        android:onClick="onClick"
         android:text="위로할 때"/>
 
 </LinearLayout>
