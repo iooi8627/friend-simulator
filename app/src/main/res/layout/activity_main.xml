@@ -1,61 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="kr.hs.emirim.iooi8627.friendsimulator.leesaebom.MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:textSize="40sp"
-        android:text="이새봄 시뮬레이터"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintHorizontal_bias="0.506"
-        app:layout_constraintVertical_bias="0.056" />
+        android:text="이새봄 시뮬레이터" />
 
     <Button
         android:id="@+id/button1"
-        android:layout_width="368dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="먹을 때"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="106dp" />
+        android:layout_margin="3dp"
+        android:text="먹을 때" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="368dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="힘들 때"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="186dp" />
+        android:layout_margin="3dp"
+        android:text="힘들 때" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="368dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="혼자 잔류할 때"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="268dp" />
+        android:layout_margin="3dp"
+        android:text="혼자 잔류할 때" />
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="368dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="신날 때"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="351dp" />
+        android:layout_margin="3dp"
+        android:text="신날 때" />
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="368dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="위로할 때"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="433dp" />
+        android:layout_margin="3dp"
+        android:text="위로할 때"/>
 
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>
